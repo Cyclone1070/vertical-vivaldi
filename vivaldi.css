@@ -1,0 +1,110 @@
+:root {
+    --tabbar-width: 55px;
+    --tabbar-width-expanded: 250px;
+    --tabbar-spacing: 14px;
+    --transition-duration: 250ms;
+}
+/* Hide the header */
+#header {
+    height: 10px !important;
+    min-height: 10px !important;
+    border: 0 !important;
+    background-color: var(--colorBg) !important;
+    box-shadow: none !important;
+    cursor: grab !important;
+}
+#header * {
+    display: none !important;
+}
+/* tab bar settings */
+.tabbar-wrapper {
+    background-color: var(--colorBg) !important;
+}
+.tabbar-wrapper .tabbar-wrapper {
+    transition: all var(--transition-duration) ease !important;
+    width: var(--tabbar-width) !important;
+    margin: var(--tabbar-spacing) 0 calc(var(--tabbar-spacing) + 10px) !important;
+}
+#tabs-tabbar-container.left {
+    background-color: var(--colorBg) !important;
+    position: relative !important;
+    z-index: 200 !important;
+    margin: 0 5px !important;
+    transition: all var(--transition-duration) ease !important;
+    width: calc(var(--tabbar-width) - 18px) !important;
+    padding: 10px 5px !important;
+    border-radius: 10px !important;
+    border: 1px solid var(--colorAccentBg) !important;
+}
+.tabbar-wrapper .tabbar-wrapper:hover #tabs-tabbar-container.left {
+    width: var(--tabbar-width-expanded) !important;
+    margin: 0 !important;
+}
+/* new tab button */
+.button-toolbar.newtab {
+    position: relative !important;
+    transition: all var(--transition-duration) ease !important;
+    border: 1px solid var(--colorAccentBg) !important;
+    border-radius: var(--currentRadius) !important;
+    left: 3px !important;
+    width: 31px !important;
+}
+.button-toolbar.newtab:hover {
+    background-color: var(--colorAccentBg) !important;
+    color: var(--colorAccentFg) !important;
+}
+.tabbar-wrapper .tabbar-wrapper:hover .button-toolbar.newtab {
+    width: 244px !important;
+}
+/* workspace settings */
+.tabbar-workspace-button {
+    box-shadow: none !important;
+    background-color: var(--colorBg) !important;
+    color: var(--colorFg) !important;
+    width: var(--tabbar-width) !important;
+    padding: 3px !important;
+}
+.ToolbarButtonPopup-DefaultStyles {
+    z-index: 220 !important;
+}
+.tabbar-workspace-button ~ #tabs-tabbar-container > .SlideBar--FullHeight {
+    top: 0 !important;
+}
+.separator {
+    display: none !important;
+}
+/* rounded and padded viewport */
+#webview-container {
+    padding: 0 5px 10px !important;
+    background-color: var(--colorBg) !important;
+}
+.fullscreen #webview-container {
+    padding: 0 !important;
+}
+#webpage-stack {
+    border-radius: 10px !important;
+    border: 1px solid var(--colorAccentBg) !important;
+}
+/* panel style */
+#panels-container {
+    border: none !important;
+}
+/* tab recolor */
+.tab {
+    background-color: var(--colorBg) !important;
+    color: var(--colorFg) !important;
+    border: 1px solid var(--colorAccentBg) !important;
+}
+.tab.active {
+    background-color: var(--colorAccentBg) !important;
+    color: var(--colorAccentFg) !important;
+}
+/* Remove tab mute icon */
+#tabs-container .tab.tab-small.audio-on .tab-audio,
+#tabs-container .tab.pinned.audio-on .tab-audio,
+#tabs-container .tab.tab-small.audio-muted .tab-audio,
+#tabs-container .tab.pinned.audio-muted .tab-audio,
+#tabs-container .tab.tab-small.tab-captured .tab-audio,
+#tabs-container .tab.pinned.tab-captured .tab-audio {
+    display: none !important;
+}
