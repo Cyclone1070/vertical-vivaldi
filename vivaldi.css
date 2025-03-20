@@ -56,6 +56,9 @@
 .tabbar-wrapper .tabbar-wrapper:hover .button-toolbar.newtab {
     width: 244px !important;
 }
+.ToolbarButton-Button {
+    color: var(--colorFg) !important;
+}
 /* workspace settings */
 .tabbar-workspace-button {
     box-shadow: none !important;
@@ -88,6 +91,7 @@
 /* panel style */
 #panels-container {
     border: none !important;
+    background-color: var(--colorBg) !important;
 }
 /* tab recolor */
 .tab {
