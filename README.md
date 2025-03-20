@@ -1,5 +1,5 @@
 # Vertical Vivaldi
-Custom css for vivaldi with auto extend vertical tab
+Custom css for vivaldi with auto expand vertical tab
 
 # Usage
 To use the css, visit `vivaldi://experiments/`, tick `allow for using css modifications`, then go to `vivaldi://settings/appearance/` and choose a folder to load from.
