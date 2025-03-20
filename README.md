@@ -6,6 +6,8 @@ To use the css, visit `vivaldi://experiments/`, tick `allow for using css modifi
 Download the .css file and paste in your chosen folder. Go to tab settings and chose `vertical tab on the left` and `panel on the right`.
 
 # Optional Settings (the one I'm using)
+- Right click the right sidebar, select `Customise toolbar` and drag in your preferred buttons like extensions
+  
 - Untick `Show address bar`
 
 - Untick `Enable Workspace`
