@@ -5,7 +5,7 @@ Custom css for vivaldi with auto expand vertical tab
 To use the css, visit `vivaldi://experiments/`, tick `allow for using css modifications`, then go to `vivaldi://settings/appearance/` and choose a folder to load from.
 Download the .css file and paste in your chosen folder. Go to tab settings and chose `vertical tab on the left` and `panel on the right`.
 
-# Optional Settings (the one I'm using)
+# Optional Settings (the ones I'm using)
 - Right click the right sidebar, select `Customise toolbar` and drag in your preferred buttons like extensions
   
 - Untick `Show address bar`
