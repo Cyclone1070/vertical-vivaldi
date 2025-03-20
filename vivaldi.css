@@ -99,6 +99,9 @@
     color: var(--colorFg) !important;
     border: 1px solid var(--colorAccentBg) !important;
 }
+.tab:hover {
+    background-color: var(--colorAccentBgAlphaHeavy) !important;
+}
 .tab.active {
     background-color: var(--colorAccentBg) !important;
     color: var(--colorAccentFg) !important;
