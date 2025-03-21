@@ -2,13 +2,13 @@
 Custom css for vivaldi with auto expand vertical tab
 
 # Usage
-- To use the css, visit `vivaldi://experiments/`, tick `allow for using css modifications`, then go to `vivaldi://settings/appearance/` and choose a folder to load from.
+- To use the css, visit `vivaldi://experiments/`, tick `allow for using css modifications`, then go to `vivaldi://settings/appearance/` and choose a folder to load from
 
-- Download the .css file and paste in your chosen folder.
+- Download the .css file and paste in your chosen folder
 
-- Go to tab settings and chose `vertical tab on the left` and `panel on the right`.
+- Go to tab settings and chose `vertical tab on the left` and `panel on the right`
 
-- Untick `Accent on window` in your color theme.
+- Untick `Accent on window` in your color theme to fix the tab stack
 
 
 # Optional Settings (the ones I'm using)
@@ -33,4 +33,3 @@ Custom css for vivaldi with auto expand vertical tab
 <img width="1552" alt="Screenshot 2025-03-20 at 15 20 54" src="https://github.com/user-attachments/assets/85914bb4-4048-4f7e-bbd3-8fb522104645" />
 
 # Known Issues
-- Tab stack is inconsistent and a bit broken
