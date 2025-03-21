@@ -50,7 +50,7 @@
     width: 31px !important;
 }
 .button-toolbar.newtab:hover {
-    background-color: var(--colorAccentBg) !important;
+    background-color: var(--colorAccentBgAlphaHeavy) !important;
     color: var(--colorAccentFg) !important;
 }
 .tabbar-wrapper .tabbar-wrapper:hover .button-toolbar.newtab {
@@ -58,6 +58,13 @@
 }
 .ToolbarButton-Button {
     color: var(--colorFg) !important;
+}
+/* tab stack hover highlight */
+.tab-position.accordion-toggle-arrow {
+    color: var(--colorFg) !important;
+}
+.tab-position.accordion-toggle-arrow:hover {
+    background-color: var(--colorAccentBgAlphaHeavy) !important;
 }
 /* workspace settings */
 .tabbar-workspace-button {
@@ -105,6 +112,9 @@
 .tab.active {
     background-color: var(--colorAccentBg) !important;
     color: var(--colorAccentFg) !important;
+}
+.tab.tab-in-accordion {
+    border: 0 !important;
 }
 /* Remove tab mute icon */
 #tabs-container .tab.tab-small.audio-on .tab-audio,
