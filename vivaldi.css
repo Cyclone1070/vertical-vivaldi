@@ -100,8 +100,9 @@
     border: none !important;
     background-color: var(--colorBg) !important;
 }
-/* tab recolor */
+/* tab styling*/
 .tab {
+    transition: all var(--transition-duration) ease !important;
     background-color: var(--colorBg) !important;
     color: var(--colorFg) !important;
     border: 1px solid var(--colorAccentBg) !important;
@@ -115,6 +116,9 @@
 }
 .tab.tab-in-accordion {
     border: 0 !important;
+}
+.tabbar-wrapper .tabbar-wrapper:hover .tab {
+    width: calc(var(--tabbar-width-expanded) - 10px) !important;
 }
 /* Remove tab mute icon */
 #tabs-container .tab.tab-small.audio-on .tab-audio,
