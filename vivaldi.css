@@ -18,15 +18,19 @@
 }
 /* tab bar settings */
 .tabbar-wrapper {
+	position: relative !important;
     background-color: var(--colorBg) !important;
+	width: var(--tabbar-width) !important;
 }
 .tabbar-wrapper .tabbar-wrapper {
+	z-index: 190 !important;
     transition: all var(--transition-duration) ease !important;
     width: var(--tabbar-width) !important;
     margin: var(--tabbar-spacing) 0 calc(var(--tabbar-spacing) + 10px) !important;
+    background-color: var(--colorBg) !important;
+    border-radius: 10px !important;
 }
 #tabs-tabbar-container.left {
-    background-color: var(--colorBg) !important;
     position: relative !important;
     z-index: 200 !important;
     margin: 0 5px !important;
@@ -34,17 +38,20 @@
     width: calc(var(--tabbar-width) - 18px) !important;
     padding: 10px 5px !important;
     border-radius: 10px !important;
-    border: 1px solid var(--colorAccentBg) !important;
 }
 .tabbar-wrapper .tabbar-wrapper:hover #tabs-tabbar-container.left {
-    width: var(--tabbar-width-expanded) !important;
+	width: var(--tabbar-width-expanded) !important;
     margin: 0 !important;
+    background-color: var(--colorAccentBgAlphaHeavy) !important;
+}
+.tabbar-wrapper .tabbar-wrapper:hover {
+	/* add padding from inner tabbar */
+    width: calc(var(--tabbar-width-expanded) + 10px) !important;
 }
 /* new tab button */
 .button-toolbar.newtab {
     position: relative !important;
     transition: all var(--transition-duration) ease !important;
-    border: 1px solid var(--colorAccentBg) !important;
     border-radius: var(--currentRadius) !important;
     left: 3px !important;
     width: 31px !important;
@@ -102,23 +109,24 @@
 }
 /* tab styling*/
 .tab {
+	background-color: var(--colorBg) !important;
     transition: all var(--transition-duration) ease !important;
-    background-color: var(--colorBg) !important;
     color: var(--colorFg) !important;
-    border: 1px solid var(--colorAccentBg) !important;
 }
-.tab:hover {
+.tabbar-wrapper .tabbar-wrapper:hover .tab {
+	background-color: transparent !important;
+    width: calc(var(--tabbar-width-expanded) - 10px) !important;
+}
+.tabbar-wrapper .tabbar-wrapper:hover .tab:hover {
     background-color: var(--colorAccentBgAlphaHeavy) !important;
 }
 .tab.active {
     background-color: var(--colorAccentBg) !important;
     color: var(--colorAccentFg) !important;
 }
-.tab.tab-in-accordion {
-    border: 0 !important;
-}
-.tabbar-wrapper .tabbar-wrapper:hover .tab {
-    width: calc(var(--tabbar-width-expanded) - 10px) !important;
+.tabbar-wrapper .tabbar-wrapper:hover .tab.active {
+    background-color: var(--colorAccentBg) !important;
+    color: var(--colorAccentFg) !important;
 }
 /* Remove tab mute icon */
 #tabs-container .tab.tab-small.audio-on .tab-audio,
