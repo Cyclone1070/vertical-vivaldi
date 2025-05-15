@@ -36,6 +36,7 @@
 }
 
 #tabs-tabbar-container.left {
+	box-shadow: none !important;
 	position: relative !important;
 	z-index: 200 !important;
 	transition: all var(--transition-duration) ease !important;
