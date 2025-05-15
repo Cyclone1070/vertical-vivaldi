@@ -27,9 +27,11 @@ Custom css for vivaldi with auto expand vertical tab
 
 # Preview
 
-https://github.com/user-attachments/assets/475bfbd6-ac87-4898-9710-57a2cdc721fe
+https://github.com/user-attachments/assets/dee30582-4acd-4956-976c-703ebf8f37f9
+
 ![Screenshot 2025-05-16 at 00 09 23](https://github.com/user-attachments/assets/dd49a6ac-ff6e-4fb2-acd9-bcd5e5e433fe)
 ![Screenshot 2025-05-16 at 00 11 26](https://github.com/user-attachments/assets/8053e9dd-ec62-473b-a605-85159148f7f6)
+![Screenshot 2025-05-16 at 00 15 25](https://github.com/user-attachments/assets/e8681412-15c2-44f3-a5bb-dcafabcca029)
 
 
 
