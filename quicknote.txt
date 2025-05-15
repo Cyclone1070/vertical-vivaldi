@@ -1,2 +1,0 @@
-Sidebar expand bug is from applying :hover to parent and modifying css of child. Simple fix would be to applying :hover directly on #tab-tabbar-container.left
-This bug can be recreated by accessing get full text option from scopus database
