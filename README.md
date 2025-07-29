@@ -26,10 +26,13 @@ Custom css for vivaldi with auto expand vertical tab
   - Untick all `Colour Overrides`
 
 # Preview
-![ScreenRecording2025-03-20at15 07 56-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d9c8f838-4fbf-48ba-b290-491f0c1f0da8)
 
-<img width="1552" alt="Screenshot 2025-03-20 at 15 21 15" src="https://github.com/user-attachments/assets/8ec3da81-9ada-4ba2-9541-f525370e2586" />
-<img width="1552" alt="Screenshot 2025-03-20 at 15 20 00" src="https://github.com/user-attachments/assets/336daec1-733d-4857-b89d-e972dcf85fb6" />
-<img width="1552" alt="Screenshot 2025-03-20 at 15 20 54" src="https://github.com/user-attachments/assets/85914bb4-4048-4f7e-bbd3-8fb522104645" />
+https://github.com/user-attachments/assets/dee30582-4acd-4956-976c-703ebf8f37f9
+
+![Screenshot 2025-05-16 at 00 09 23](https://github.com/user-attachments/assets/dd49a6ac-ff6e-4fb2-acd9-bcd5e5e433fe)
+![Screenshot 2025-05-16 at 00 11 26](https://github.com/user-attachments/assets/8053e9dd-ec62-473b-a605-85159148f7f6)
+![Screenshot 2025-05-16 at 00 15 25](https://github.com/user-attachments/assets/e8681412-15c2-44f3-a5bb-dcafabcca029)
+
+
 
 # Known Issues
