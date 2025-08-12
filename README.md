@@ -36,3 +36,5 @@ https://github.com/user-attachments/assets/dee30582-4acd-4956-976c-703ebf8f37f9
 
 
 # Known Issues
+
+Sidebar might get stuck on hovering state on some rare websites. I managed to fix most of these cases by removing advance css selectors but vivaldi support for css is still very buggy
